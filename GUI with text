@@ -1,0 +1,11 @@
+from tkinter import *
+window=Tk()
+btn=Button(window, text="Tweet", fg='blue')
+btn.place(x=120, y=150)
+lbl=Label(window, text="What do you want to tweet?", fg='Green', font=("Impact", 16))
+lbl.place(x=30, y=50)
+txtfld=Entry(window, text="K BYE", bd=5)
+txtfld.place(x=80, y=100)
+window.title('Tweet it')
+window.geometry("300x200+10+10")
+window.mainloop()
